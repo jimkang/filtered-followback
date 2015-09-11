@@ -22,17 +22,22 @@ Usage
         },
         neverUnfollow: [
           '2205976656'
+        ],
+        blacklist: [
+          13670453,
+          15745678
         ]
       },
       reportResults
     );
 
-    function reportResults(error, followed, unfollowed) {
+    function reportResults(error, followed, unfollowed, filteredOut) {
       if (error) {
         console.log(error);
       }
       console.log('Followed:', followed);
       console.log('Unfollowed:', unfollowed);
+      console.log('Filtered out:', filteredOut);
     }
 
 Tests
