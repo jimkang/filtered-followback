@@ -1,6 +1,6 @@
 {
   "name": "filtered-followback",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Given Twitter credentials, make follower and followee lists match by following and unfollowing (via quidprofollow), while taking care to not follow probable spam accounts (via twitterjerkdetector).",
   "main": "filtered-followback.js",
   "scripts": {
