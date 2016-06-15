@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "call-next-tick": "^1.1.2",
-    "quidprofollow": "^1.2.5",
+    "quidprofollow": "^1.2.6",
     "twit": "^2.1.0",
     "twitterjerkdetector": "^2.2.1"
   }
